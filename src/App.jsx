@@ -6,6 +6,10 @@ function App() {
 
   const [beers, setBeers] = useState([]);
 
+  useEffect(() => {
+    getBeers()
+  },[]);
+
   const getBeers = async () => {
     const url = "https://api.punkapi.com/v2/beers";
 
