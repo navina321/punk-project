@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 
-const BeerCard = ({name,tagline,image}) => {
+const BeerCard = ({name,tagline,image, description, ph, abv}) => {
 
   const [showInfo, setShowInfo] = useState(false);
 
@@ -17,6 +17,16 @@ const BeerCard = ({name,tagline,image}) => {
         <img src={image} className='beer-display__image' alt={name}/>
       </div>
       <h2>"{tagline}"</h2>
+    </div>
+  )
+
+  const beerInfoJSX = (
+    <div className='beer-display' onClick={handleClick}>
+      <h2>{name} Info</h2>
+      <h3 className='beer-display__description'>{description}</h3>
+      <h3 className='beer-display__info'>A.B.V:{abv}%</h3>
+      <h3>p.H:{ph}</h3>
+
     </div>
   )
 

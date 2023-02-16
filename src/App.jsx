@@ -14,9 +14,11 @@ function App() {
 
     setBeers(beerData)
   }
+  
 
   return (
     <div className="App">
+      <h1>testing</h1>
       <div>
         <Main beers={beers}/>
       </div>
