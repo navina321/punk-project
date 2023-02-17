@@ -1,13 +1,14 @@
 .punk-beer{
     display: flex;
     flex-direction: row;
+    background-color: bisque;
 
     &__nav{
         background-color: beige;
-        height: 100vh;
+        height: 2900px;
         border-right: 10px solid olivedrab ;
     }
     &__main{
-        background-color: bisque;
+        
     }
 }

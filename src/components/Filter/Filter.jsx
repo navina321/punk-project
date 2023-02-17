@@ -6,8 +6,8 @@ const Filter = ({handleABVFilter,handleClassicFilter,handlePHFilter}) => {
 
   return (
     <div className='filter'>
-        <h3 className='filter__heading filter__item'>Filters:</h3>
-        <div className='filter__abv'>
+        <h3 className='filter__heading'>Filters:</h3>
+        <div className='filter__abv  filter__item'>
             <input 
                 onChange={handleABVFilter}
                 type="checkbox"
@@ -16,7 +16,7 @@ const Filter = ({handleABVFilter,handleClassicFilter,handlePHFilter}) => {
             />
             <label>High Alcohol: ABV {'>'} 6%</label>
         </div>
-        <div className='filter__classics'>
+        <div className='filter__classics  filter__item'>
             <input 
                 onChange={handleClassicFilter}
                 type="checkbox"
@@ -25,7 +25,7 @@ const Filter = ({handleABVFilter,handleClassicFilter,handlePHFilter}) => {
             />
             <label>Classic Range: pre-2010</label>
         </div>
-        <div className='filter__ph'>
+        <div className='filter__ph  filter__item'>
             <input 
                 onChange={handlePHFilter}
                 type="checkbox"

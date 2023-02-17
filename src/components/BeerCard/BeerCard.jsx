@@ -35,7 +35,7 @@ const BeerCard = ({name,tagline,image, description, ph, abv}) => {
 
   return (
     <div className='beer-card'>
-      {showInfo ? beerDisplayJSX : beerInfoJSX}
+      {showInfo ?  beerInfoJSX : beerDisplayJSX}
     </div>
   )
 }
