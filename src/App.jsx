@@ -28,12 +28,30 @@ function App() {
     const filteredBeersBySearch = beers.filter(beer => (`${beer.name}`.toLowerCase().includes(value)));
     setBeers(filteredBeersBySearch);
   }
+
+  //filter by ABV function
+  const handleABVFilter = () => {
+
+  }
+  //filter by ph function
+  const handlePHFilter = () => {
+    
+  }
+  //filter by classic function
+  const handleClassicFilter = () => {
+    
+  }
   
   return (
     <div className="punk-beer">
       <div className='punk-beer__nav'>
         <h1>Punk Beers</h1>
-        <Nav handleSearch={handleSearch}/>
+        <Nav 
+          handleSearch={handleSearch}
+          handleABVFilter={handleABVFilter}
+          handlePHFilter={handlePHFilter}
+          handleClassicFilter={handleClassicFilter}
+        />
       </div>
       <div className='punk-beer__main'>
         <Main beers={beers}/>
