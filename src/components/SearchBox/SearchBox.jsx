@@ -6,7 +6,7 @@ const SearchBox = ({handleSearch}) => {
     <div>
         <input 
             type="text" 
-            placeholder='Search'
+            placeholder='Search Punk API'
             onInput={handleSearch}
         />
     </div>
