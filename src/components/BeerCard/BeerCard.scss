@@ -6,10 +6,12 @@
 }
 
 .beer-display {
-    border: 2px solid black;
+    border: 3px solid saddlebrown;
+    box-shadow: 2px 2px sienna;
     border-radius: 20px;
     background-color: sandybrown;
     width: 260px;
+    height: 390px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -19,8 +21,11 @@
 
     &__title {
         font-size: 22px;
+        height: 40px;
+        margin: 10px;
+        padding: 5px;
         text-align: center;
-        color: darkslategray;
+        color: rgb(0, 27, 6);
     }
 
     &__img-container {
@@ -41,14 +46,25 @@
     }
     &__tag {
         text-align: center;
+        font-size: 18px;
+        margin: 10px;
+        color: rgb(0, 27, 6)
     }
 
     &__description {
+        font-size: 16px;
+        margin: 10px;
+        color: rgb(14, 69, 14);
+        vertical-align: middle;
+        border-radius: 10px;
+        height: 200px;
         text-align: center;
+        font-style: italic;
+        color: dar;
     }
     &__info {
         width: 240px;
-        
+        color: rgb(0, 27, 6)
     }
 
 }

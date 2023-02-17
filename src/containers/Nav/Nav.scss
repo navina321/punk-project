@@ -1,3 +1,9 @@
-.Nav{
-    width: 250px;
+.nav-bar{
+    width: 300px;
+
+    &__title{
+        text-align: center;
+        margin: 10px;
+    }
+
 }
