@@ -1,7 +1,7 @@
 import React from 'react'
 import './Filter.scss'
 
-const Filter = (handleABVFilter,handleClassicFilter,handlePHFilter) => {
+const Filter = ({handleABVFilter,handleClassicFilter,handlePHFilter}) => {
 
 
   return (

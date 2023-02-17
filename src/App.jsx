@@ -10,12 +10,12 @@ function App() {
   const [filterByPH, setFilterByPH] = useState(false);
   const [filterClassics, setFilterClassics] = useState(false);
 
-  // useEffect(() => {
-  //   getBeers();
-  // }, [filterByABV, filterByPH, filterClassics]);
+  useEffect(() => {
+    getBeers();
+  }, [filterByABV, filterByPH, filterClassics]);
 
   const getBeers = async () => {
-    let url = "https://api.punkapi.com/v2/beers";
+    let url = "https://api.punkapi.com/v2/beers?page=2&per_page=80";
 
     if(filterByABV) {
       url += "?abv_gt=6.0&"
@@ -26,10 +26,10 @@ function App() {
 
     const res = await fetch(url);
     const beerData = await res.json();
-
-    setBeers(beerData.results);
+    console.log(beerData)
+    setBeers(beerData);
   };
-  console.log(getBeers);
+  
 
   //handleSearch function
   const handleSearch = (e) => {
