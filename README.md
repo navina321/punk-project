@@ -8,3 +8,8 @@ I have built a website using React and the skills learnt over the course of the 
 
 Pseudocode:
 ![Punk Pseudocode](https://user-images.githubusercontent.com/81630548/219676908-00c52058-c2b9-4cb8-b76d-2c0888fd270d.png)
+
+
+bug fix to do:
+- change search function to reset beers without refreshing
+- add filter for ph
