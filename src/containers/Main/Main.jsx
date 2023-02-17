@@ -4,7 +4,7 @@ import './Main.scss'
 
 const Main = ({beers}) => {
   return (
-    <div className='Main'>
+    <div className='punk-beer__main'>
         <CardContainer beers={beers}/>
     </div>
   )

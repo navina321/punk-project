@@ -17,7 +17,7 @@ const CardContainer = ({beers}) => {
         )
     })
   return (
-    <div>
+    <div className='card-container'>
         {beerCardJSX}
     </div>
   )

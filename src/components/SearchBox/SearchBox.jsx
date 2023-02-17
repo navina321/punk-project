@@ -3,7 +3,7 @@ import './SearchBox.scss'
 
 const SearchBox = ({handleSearch}) => {
   return (
-    <div>
+    <div className='search-box'>
         <input 
             type="text" 
             placeholder='Search Punk API'
