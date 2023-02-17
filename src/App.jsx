@@ -56,7 +56,6 @@ function App() {
   return (
     <div className="punk-beer">
       <div className="punk-beer__nav">
-        <h1>Punk Beers</h1>
         <Nav
           handleSearch={handleSearch}
           handleABVFilter={handleABVFilter}
