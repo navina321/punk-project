@@ -8,7 +8,6 @@ const SearchBox = ({handleSearch}) => {
             type="text" 
             placeholder='Search Punk API'
             onInput={handleSearch}
-            className='search-box__input'
         />
     </div>
   )

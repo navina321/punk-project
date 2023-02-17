@@ -11,7 +11,6 @@ const Nav = ({
 }) => {
   return (
     <div className="nav-bar">
-      <h1 className="nav-bar__title">Punk Beers</h1>
       <div className="nav-bar__search">
         <SearchBox handleSearch={handleSearch} />
       </div>
