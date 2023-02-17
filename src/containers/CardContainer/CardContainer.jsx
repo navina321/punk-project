@@ -19,6 +19,7 @@ const CardContainer = ({beers}) => {
   return (
     <div>
         {beerCardJSX}
+        <h1>hello</h1>
     </div>
   )
 }
