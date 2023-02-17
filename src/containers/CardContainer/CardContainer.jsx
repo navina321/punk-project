@@ -1,6 +1,6 @@
 import React from 'react'
 import BeerCard from '../../components/BeerCard/BeerCard'
-
+import './CardContainer.scss'
 const CardContainer = ({beers}) => {
 
     const beerCardJSX = beers.map((beer) => {

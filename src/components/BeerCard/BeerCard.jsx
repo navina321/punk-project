@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import './BeerCard.scss'
 
 
 const BeerCard = ({name,tagline,image, description, ph, abv}) => {

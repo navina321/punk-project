@@ -30,7 +30,7 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <div className="punk-beer">
       <h1>testing</h1>
       <div>
         <Nav handleSearch={handleSearch}/>
