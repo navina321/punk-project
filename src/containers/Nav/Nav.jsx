@@ -1,8 +1,14 @@
 import React from 'react'
+import SearchBox from '../../components/SearchBox/SearchBox'
 
-const Nav = () => {
+const Nav = ({handleSearch}) => {
+
   return (
-    <div>Nav</div>
+    <div>
+        <div>
+            <SearchBox handleSearch={handleSearch}/>
+        </div>
+    </div>
   )
 }
 
