@@ -6,6 +6,7 @@ const Filter = (handleABVFilter,handleClassicFilter,handlePHFilter) => {
 
   return (
     <div className='filter'>
+        <h3 className='filter__heading filter__item'>Filters:</h3>
         <div className='filter__abv'>
             <input 
                 onChange={handleABVFilter}

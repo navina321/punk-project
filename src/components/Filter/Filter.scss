@@ -1,0 +1,20 @@
+.filter {
+    width: 90%;
+    height: 150px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+
+    &__heading{
+        text-align: center;
+    }
+
+    &__item{
+        margin-left: 4px;
+    }
+}
