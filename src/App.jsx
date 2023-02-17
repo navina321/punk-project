@@ -31,11 +31,11 @@ function App() {
   
   return (
     <div className="punk-beer">
-      <h1>testing</h1>
-      <div>
+      <div className='punk-beer__nav'>
+        <h1>Punk Beers</h1>
         <Nav handleSearch={handleSearch}/>
       </div>
-      <div>
+      <div className='punk-beer__main'>
         <Main beers={beers}/>
       </div>
     </div>
