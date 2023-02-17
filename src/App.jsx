@@ -15,7 +15,7 @@ function App() {
   }, [filterByABV, filterByPH, filterClassics]);
 
   const getBeers = async () => {
-    let url = "https://api.punkapi.com/v2/beers?page=2&per_page=80";
+    let url = "https://api.punkapi.com/v2/beers";
 
     if(filterByABV) {
       url += "?abv_gt=6.0&"
