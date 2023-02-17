@@ -1,8 +1,14 @@
 import React from 'react'
 
-const SearchBox = () => {
+const SearchBox = ({handleSearch}) => {
   return (
-    <div>SearchBox</div>
+    <div>
+        <input 
+            type="text" 
+            placeholder='Search for ...'
+            onInput={handleSearch}
+        />
+    </div>
   )
 }
 
